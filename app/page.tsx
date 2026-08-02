@@ -9,11 +9,12 @@ export default function Home() {
           <p className="eyebrow">Agricultural Economist · Fayetteville, Arkansas</p>
           <h1>Yuan Zhang</h1>
           <p className="intro">I am a Postdoctoral Fellow in the Department of Agricultural Economics and Agribusiness at the University of Arkansas.</p>
-          <p className="intro secondary">My research connects production economics, commodity markets, and risk—turning spatial and time-series evidence into practical insight for farms and food systems.</p>
+          <p className="intro secondary">I am originally from Shanxi, China, a province known for its coal industry. I earned my bachelor’s degree at Oklahoma State University, completed my master’s degree at the University of California, Davis, and returned to Oklahoma State University for my Ph.D.</p>
           <div className="hero-actions">
             <a className="primary-button" href="/research">Explore my research</a>
             <a className="secondary-button" href="/Yuan_Zhang_CV.docx" download>Download CV <span aria-hidden="true">↓</span></a>
           </div>
+          <a className="hero-email" href="mailto:yuanz@uark.edu"><span>Email</span> yuanz@uark.edu ↗</a>
         </div>
         <div className="portrait-wrap">
           <div className="portrait-frame"><img src="/yuan-zhang-original.jpg" alt="Portrait of Yuan Zhang" /></div>
