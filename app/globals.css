@@ -48,9 +48,9 @@ h1 { margin: 18px 0 30px; font-family: Georgia, serif; font-size: clamp(68px, 8v
 .text-link { display: inline-flex; gap: 7px; align-items: center; border-bottom: 1px solid currentColor; padding-bottom: 3px; font-size: 13px; font-weight: 700; }
 .text-link span { transition: transform .2s; }
 .text-link:hover span { transform: translate(2px, -2px); }
-.portrait-wrap { justify-self: end; width: min(100%, 410px); }
+.portrait-wrap { justify-self: end; width: min(100%, 205px); }
 .portrait-frame { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--paper-deep); }
-.portrait-frame::before { content: ""; position: absolute; inset: 16px; border: 1px solid rgba(255,255,255,.6); z-index: 1; pointer-events: none; }
+.portrait-frame::before { content: ""; position: absolute; inset: 8px; border: 1px solid rgba(255,255,255,.6); z-index: 1; pointer-events: none; }
 .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 33%; }
 .portrait-note { margin: 14px 0 0 38px; padding-left: 13px; max-width: 315px; border-left: 2px solid var(--copper); color: var(--muted); font-size: 12px; line-height: 1.55; }
 
@@ -131,7 +131,7 @@ footer h2 { max-width: 680px; margin: 20px 0 34px; font-family: Georgia, serif; 
   nav::-webkit-scrollbar { display: none; }
   .hero { width: calc(100% - 32px); padding: 55px 0 70px; grid-template-columns: 1fr; gap: 48px; }
   .hero-copy { order: 2; }
-  .portrait-wrap { order: 1; justify-self: start; width: min(82%, 390px); }
+  .portrait-wrap { order: 1; justify-self: start; width: min(50%, 195px); }
   h1 { font-size: clamp(66px, 22vw, 94px); }
   .research-section, .experience-section, .teaching-section { padding: 78px 20px; grid-template-columns: 1fr; gap: 42px; }
   .research-grid { grid-template-columns: 1fr; }
