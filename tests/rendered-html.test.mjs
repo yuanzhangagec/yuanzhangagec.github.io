@@ -19,7 +19,9 @@ test("server-renders Yuan Zhang's academic website", async () => {
   const html = await response.text();
   assert.match(html, /<title>Yuan Zhang \| Agricultural Economist<\/title>/i);
   assert.match(html, /Postdoctoral Fellow/);
-  assert.match(html, /Selected research/);
+  assert.match(html, /Explore my research/);
+  assert.match(html, /Download CV/);
+  assert.match(html, /href="\/publications"/);
   assert.match(html, /Google Scholar/);
   assert.match(html, /Yuan_Zhang_CV\.docx/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/);
