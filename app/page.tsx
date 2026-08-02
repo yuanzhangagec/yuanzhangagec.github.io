@@ -17,7 +17,7 @@ export default function Home() {
           <a className="hero-email" href="mailto:yuanz@uark.edu"><span>Email</span> yuanz@uark.edu ↗</a>
         </div>
         <div className="portrait-wrap">
-          <div className="portrait-frame"><img src="/yuan-zhang-original.jpg" alt="Portrait of Yuan Zhang" /></div>
+          <div className="portrait-frame"><img src="/yuan-zhang-web.jpg" alt="Portrait of Yuan Zhang" /></div>
         </div>
       </section>
       <section className="home-links" aria-label="Explore the website">
