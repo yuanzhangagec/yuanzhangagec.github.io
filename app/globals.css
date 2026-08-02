@@ -48,7 +48,7 @@ h1 { margin: 18px 0 30px; font-family: Georgia, serif; font-size: clamp(68px, 8v
 .portrait-wrap { justify-self: end; width: min(100%, 410px); }
 .portrait-frame { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--paper-deep); }
 .portrait-frame::before { content: ""; position: absolute; inset: 16px; border: 1px solid rgba(255,255,255,.6); z-index: 1; pointer-events: none; }
-.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 33%; image-rendering: auto; filter: none; }
+.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 33%; }
 .portrait-note { margin: 14px 0 0 38px; padding-left: 13px; max-width: 315px; border-left: 2px solid var(--copper); color: var(--muted); font-size: 12px; line-height: 1.55; }
 
 .research-section, .experience-section, .teaching-section { padding: 110px max(24px, calc((100vw - 1180px) / 2)); display: grid; grid-template-columns: 190px 1fr; gap: 30px; }
