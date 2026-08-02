@@ -5,6 +5,7 @@
   --muted: #6e625a;
   --paper: #f5f1e8;
   --paper-deep: #e9e1d2;
+  --gutter: #d3cac0;
   --green: #d4632f;
   --copper: #9e3f18;
   --line: rgba(75, 48, 34, 0.2);
@@ -15,6 +16,8 @@ html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
 a { color: inherit; text-decoration: none; }
 main { overflow: hidden; }
+.home-page { background: var(--gutter); }
+.home-page .site-header, .home-page .hero { background: var(--paper); }
 
 .site-header {
   width: min(1180px, calc(100% - 48px)); margin: 0 auto; height: 92px;
@@ -109,7 +112,7 @@ footer h2 { max-width: 680px; margin: 20px 0 34px; font-family: Georgia, serif; 
 .footer-links a { display: flex; justify-content: space-between; gap: 25px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,.25); font-size: 13px; }
 .copyright { grid-column: 1 / -1; margin: 70px 0 0; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.15); color: rgba(255,255,255,.5); font-size: 11px; }
 
-.home-links { padding: 0 max(24px, calc((100% - 1180px) / 2)) 110px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.home-links { padding: 0 max(24px, calc((100% - 1180px) / 2)) 110px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--gutter); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .home-links a { min-height: 190px; padding: 26px; background: var(--paper); display: flex; flex-direction: column; transition: background .2s, color .2s; }
 .home-links a:hover { background: var(--green); color: white; }
 .home-links span { color: var(--copper); font-size: 10px; font-weight: 700; }
