@@ -40,6 +40,8 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+/out/
+/preview.*.log
 /.pnpm-store/
 /pnpm-lock.yaml
 /pnpm-workspace.yaml

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yuanzhang.github.io"),
+  metadataBase: new URL("https://yuanzhangagec.github.io"),
   title: "Yuan Zhang | Agricultural Economist",
   description: "Yuan Zhang is an agricultural economist researching production, commodity markets, transportation disruptions, and risk.",
   openGraph: {

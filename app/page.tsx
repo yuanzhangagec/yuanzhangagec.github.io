@@ -36,26 +36,17 @@ const publications = [
   },
 ];
 
-const workingPapers = [
+const outreach = [
   {
-    status: "R&R · Agricultural Economics",
-    title: "Combining Spatial and Time Series Information to Rate Crop Insurance",
-    authors: "Yuan Zhang, B. Wade Brorsen, and E. Park",
+    status: "Extension publication · 2026",
+    title: "When the River Runs Low, Southern Grain Farmers Pay the Most",
+    authors: "Yuan Zhang, A. E. Anderson, and R. Loy · Southern Ag Today",
+    href: "https://southernagtoday.org/2026/06/24/when-the-river-runs-low-southern-grain-farmers-pay-the-most/",
   },
   {
-    status: "Under review · AEPP",
-    title: "Effects of Rail Consolidation on Grain Basis: Evidence from the CP–KCS Merger",
-    authors: "Yuan Zhang, A. E. Anderson, A. McKenzie, E. Park, and N. J. Pates",
-  },
-  {
-    status: "Under review · ERAE",
-    title: "Ripple Effects of Hurricanes on the U.S. Grain Basis: How Far, How Long, and How Big?",
-    authors: "Yuan Zhang, A. E. Anderson, A. McKenzie, H. Biram, and N. J. Pates",
-  },
-  {
-    status: "Working paper",
-    title: "Price Adjustment and Welfare Changes Under Consumer Loss Aversion: The Impact of HPAI on the Table Eggs Market",
-    authors: "Yuan Zhang, A. E. Anderson, and J. M. Thompson",
+    status: "Media coverage · 2026",
+    title: "The Economic Impacts of Mississippi River Disruptions on Southern Grain Farmers",
+    authors: "Radio interview · Agriculture of America (AOA), American Ag Network",
   },
 ];
 
@@ -75,6 +66,7 @@ export default function Home() {
           <a href="#publications">Publications</a>
           <a href="#experience">Experience</a>
           <a href="#teaching">Teaching</a>
+          <a href="/personal">Personal</a>
         </nav>
         <a className="cv-link" href="/Yuan_Zhang_CV.docx" download>
           CV <span aria-hidden="true">↓</span>
@@ -151,14 +143,14 @@ export default function Home() {
         </div>
 
         <div className="working-header">
-          <h3>Working &amp; submitted papers</h3>
+          <h3>Extension work &amp; media coverage</h3>
         </div>
         <div className="working-grid">
-          {workingPapers.map((paper) => (
-            <article key={paper.title}>
-              <span className="status">{paper.status}</span>
-              <h4>{paper.title}</h4>
-              <p>{paper.authors}</p>
+          {outreach.map((item) => (
+            <article key={item.title}>
+              <span className="status">{item.status}</span>
+              <h4>{item.href ? <a href={item.href} target="_blank" rel="noreferrer">{item.title} <Arrow /></a> : item.title}</h4>
+              <p>{item.authors}</p>
             </article>
           ))}
         </div>
