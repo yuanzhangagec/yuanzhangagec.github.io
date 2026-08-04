@@ -50,7 +50,7 @@ export default function PersonalLife() {
             <img src="/life/football.jpg" alt="College football game at Boone Pickens Stadium" />
             <img src="/life/game-day.jpeg" alt="Oklahoma State Cowboys game day at Boone Pickens Stadium" />
           </div>
-          <div className="life-card-copy"><span>Game day</span><h2>Football</h2><p>Always a loyal and true Oklahoma State Cowboys fan.</p></div>
+          <div className="life-card-copy"><span>Cowboy Saturdays</span><h2>Football</h2><p>Always a loyal and true Oklahoma State Cowboys fan. Go Pokes!</p></div>
         </article>
       </section>
 
