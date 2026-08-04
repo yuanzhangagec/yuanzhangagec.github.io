@@ -14,7 +14,6 @@ const routes = [
   { path: "/", file: new URL("index.html", out) },
   { path: "/personal", file: new URL("personal/index.html", out) },
   { path: "/research", file: new URL("research/index.html", out) },
-  { path: "/publications", file: new URL("publications/index.html", out) },
   { path: "/experience", file: new URL("experience/index.html", out) },
   { path: "/teaching", file: new URL("teaching/index.html", out) },
 ];

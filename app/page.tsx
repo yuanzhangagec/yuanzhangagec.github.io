@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </section>
       <section className="home-links" aria-label="Explore the website">
-        <a href="/publications"><span>01</span><strong>Publications</strong><em>Selected journal articles and outreach ↗</em></a>
+        <a href="/research"><span>01</span><strong>Research</strong><em>Areas, publications, and working papers ↗</em></a>
         <a href="/experience"><span>02</span><strong>Experience</strong><em>Appointments and education ↗</em></a>
         <a href="/teaching"><span>03</span><strong>Teaching</strong><em>Courses and instruction ↗</em></a>
         <a href="/personal"><span>04</span><strong>Personal</strong><em>Life beyond research ↗</em></a>
