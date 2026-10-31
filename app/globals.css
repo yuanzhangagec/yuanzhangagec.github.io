@@ -91,11 +91,22 @@ h1 { margin: 18px 0 30px; font-family: Georgia, serif; font-size: clamp(68px, 8v
 .working-grid h4 { margin: auto 0 18px; font-family: Georgia, serif; font-size: 21px; line-height: 1.35; font-weight: 400; }
 .working-grid p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .working-paper-section { padding: 110px max(24px, calc((100% - 1240px) / 2)); background: #e7ded0; }
+.plain-paper-section { background: var(--paper); }
 .working-paper-list { border-top: 1px solid var(--line); }
 .working-paper { display: grid; grid-template-columns: 210px 1fr; gap: 34px; padding: 31px 0; border-bottom: 1px solid var(--line); }
 .working-paper .status { line-height: 1.55; }
 .working-paper h3 { margin: 0 0 11px; max-width: 850px; font-family: Georgia, serif; font-size: clamp(21px, 2vw, 27px); line-height: 1.3; font-weight: 400; }
 .working-paper p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.research-outreach-hero h1 { max-width: 1160px; font-size: clamp(48px, 5.4vw, 76px); }
+.outreach-section { padding: 110px max(24px, calc((100% - 1240px) / 2)); background: #7d3417; color: white; }
+.outreach-section .eyebrow, .outreach-section .status { color: #ffd5bd; }
+.outreach-list { border-top: 1px solid rgba(255,255,255,.22); }
+.outreach-item { display: grid; grid-template-columns: 210px 1fr 36px; gap: 34px; padding: 31px 0; border-bottom: 1px solid rgba(255,255,255,.22); }
+a.outreach-item { transition: color .2s; }
+a.outreach-item:hover { color: #ffd5bd; }
+.outreach-details { display: flex; flex-direction: column; gap: 10px; }
+.outreach-details strong { max-width: 850px; font-family: Georgia, serif; font-size: clamp(21px, 2vw, 27px); line-height: 1.3; font-weight: 400; }
+.outreach-details em { color: rgba(255,255,255,.7); font-size: 13px; line-height: 1.5; font-style: normal; }
 
 .experience-section { background: #e7ded0; }
 .timeline-wrap > h2, .teaching-content > h2 { margin-bottom: 50px; font-size: clamp(42px, 5vw, 66px); }
@@ -153,6 +164,9 @@ footer h2 { max-width: 680px; margin: 20px 0 34px; font-family: Georgia, serif; 
   .working-grid, .course-grid { grid-template-columns: 1fr; }
   .working-paper-section { padding: 78px 20px; }
   .working-paper { grid-template-columns: 1fr; gap: 14px; }
+  .outreach-section { padding: 78px 20px; }
+  .outreach-item { grid-template-columns: 1fr 20px; gap: 14px; }
+  .outreach-item .status { grid-column: 1 / -1; }
   .home-links { padding: 0 20px 78px; grid-template-columns: 1fr 1fr; }
   .page-hero { width: calc(100% - 40px); padding: 72px 0; }
   .page-hero h1 { font-size: clamp(52px, 16vw, 78px); }

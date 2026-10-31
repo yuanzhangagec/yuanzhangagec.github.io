@@ -1,5 +1,5 @@
 const navigation = [
-  ["Research", "/research"],
+  ["Research, Extension & Outreach", "/research"],
   ["Experience", "/experience"],
   ["Teaching", "/teaching"],
   ["Personal", "/personal"],
